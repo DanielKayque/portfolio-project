@@ -1,0 +1,83 @@
+@import url(./experiencias.css);  /*EXPERIENCIAS*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+    text-decoration: none;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    place-items: center;
+    align-content: center;
+    border: 1px solid black;
+}
+header h3{
+    display: inline-block;
+    position: absolute;
+    color: black;
+}
+a{
+    color: white;
+}
+
+.navigation{
+    display: flex;
+    width: 400px;
+    place-content: center;
+    gap: 2.5rem;
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.nav, header h3{
+    padding: 0 4rem;
+}
+
+main{
+    width: 100%;
+    padding: 4rem 4rem;
+    /* border: 1px solid; */
+}
+
+main #lobo{
+    max-width: 460px
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 4rem;
+    
+}
+
+#content h1{
+    font-size: 5rem;
+    font-weight: 800;
+    /* width: 12ch; */
+    position: relative;
+}
+
+#content h1::before{
+    content: "";
+    display: inline-block;
+    background-image: url(./img/detalhe.svg);
+    width: 180px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: -1;
+    left: -20px;
+    top: -25px;
+}
