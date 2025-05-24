@@ -53,9 +53,9 @@
 }
 
 .subtitulo{
-    flex: 1;
+    /* flex: 1; */
     margin-left: 50px;
-    text-align: end;
+    text-align: left;
 }
 
 li{
@@ -65,7 +65,7 @@ li{
 }
 
 ul{
-    flex: 1;
+    /* flex: 1; */
     list-style: none;
     display: flex;
     width: 400px;
