@@ -47,6 +47,15 @@
     /* border: 3px dashed red; */
 }
 
+.lista-exp::before{
+    content: "";
+    height: 25px;
+    width: 6px;
+    position: relative;
+    left: -24px;
+    background-image: linear-gradient(to left, rgb(23, 185, 14), rgb(64, 255, 0));
+}
+
 
 .titulo{
     width: 50ch;

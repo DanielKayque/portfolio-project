@@ -30,7 +30,7 @@
     gap: 40px;
     justify-content: left;
     align-items: center;
-    border: 2px dashed red;
+    /* border: 2px dashed red; */
 }
 
 .todas-formacoes{
@@ -57,11 +57,11 @@
     width: 6px;
     position: absolute;
     left: -4px;
-    background-image: linear-gradient(to left, rgb(247, 0, 255), rgb(163, 11, 163));
+    background-image: linear-gradient(to left, rgb(23, 185, 14), rgb(64, 255, 0));
 }
 
 .cursos{
-    background-color: black;
+    /* background-color: black; */
     height: 112px;
     width: 700px;
     grid-column: 2;
@@ -79,5 +79,23 @@
     margin-bottom: 5px;
 }
 
-.
+.minititulo1 h3{
+    position: relative;
+}
 
+.minititulo1::before{
+    content: url(./img/cursos.svg);
+    position: absolute;
+    left: 668px;
+}
+
+
+.minititulo2 h3{
+    position: relative;
+}
+
+.minititulo2::before{
+    content: url(./img/idiomas.svg);
+    position: absolute;
+    left: 668px;
+}

@@ -1,5 +1,6 @@
 @import url(./experiencias.css);  /*EXPERIENCIAS*/
 @import url(./formacoes.css);  /*FORMAÇÕES*/
+@import url(./footer.css); /*FOOTER*/
 
 *{
     margin: 0;
@@ -19,7 +20,7 @@ header{
     width: 100%;
     place-items: center;
     align-content: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 header h3{
     display: inline-block;
@@ -28,6 +29,11 @@ header h3{
 }
 a{
     color: white;
+    transition: all 0.3s ease;
+}
+
+a:hover{
+    color: rgb(104, 237, 42)
 }
 
 .navigation{
@@ -39,6 +45,7 @@ a{
     background-color: black;
     border-radius: 50px;
     padding: 10px;
+    box-shadow: 2px 3px 10px gray;
 }
 
 .nav, header h3{
