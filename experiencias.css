@@ -6,7 +6,7 @@
 
 .grid-experiencias{
     display: grid;
-    padding: 0 4rem;
+    padding: 2rem 4rem;
     grid-template-columns: 1fr 2fr;
     gap: 4rem;
 }
@@ -21,7 +21,7 @@
 }
 
 .exp-cima{
-    font-size: 1.1rem;
+    font-size: 1.4rem;
     width: 46ch;
     grid-column: 2;
     margin-top: 20px;
@@ -72,3 +72,4 @@ ul{
     place-items: center;
     gap: 10px;
 }
+

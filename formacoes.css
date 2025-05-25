@@ -1,0 +1,83 @@
+.grid-formacao{
+    display: grid;
+    padding: 4rem 4rem;
+    grid-template-columns: 1fr 2fr;
+    gap: 4rem;
+    margin-top: 80px;
+    background-color: rgb(32, 32, 32);
+}
+
+.escrito-cima{
+    font-size: 1.4rem;
+    width: 44ch;
+    grid-column: 2;
+    margin-top: 20px;
+    color: #959595;
+}
+
+.escrito-cima strong{
+    color: white;
+}
+
+
+.grid-formacao
+.titulo-esquerda{
+    text-shadow: 4px 4px 10px #000;
+}
+
+.formacoes{
+    display: flex;
+    gap: 40px;
+    justify-content: left;
+    align-items: center;
+    border: 2px dashed red;
+}
+
+.todas-formacoes{
+    background-color: black;
+    height: 300px;
+    width: 290px;
+    display: grid;
+    color: #959595;
+    justify-items: left;
+    align-items: center;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px #000000;
+    position: relative;
+}
+
+.todas-formacoes h3{
+    color: white;
+}
+
+.todas-formacoes::before{
+    content: "";
+    height: 25px;
+    width: 6px;
+    position: absolute;
+    left: -4px;
+    background-image: linear-gradient(to left, rgb(247, 0, 255), rgb(163, 11, 163));
+}
+
+.cursos{
+    background-color: black;
+    height: 112px;
+    width: 700px;
+    grid-column: 2;
+    color: white;   
+}
+
+.cursos-todos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cursos-todos h3{
+    color: #959595;
+    margin-bottom: 5px;
+}
+
+.
+
